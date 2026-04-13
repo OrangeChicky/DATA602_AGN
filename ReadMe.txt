@@ -32,11 +32,9 @@ It quantifies the degree to which a galaxy's spectrum has been shifted due to th
 
 
 Columns are as follows:
-'o3_hB', 'n2_hA',
-       's2_hA', 'o1_hA', 'o3_o2', 'ne3_o2', 'is_AGN', 'which_AGN', 'u-g',
-       'u-r', 'u-i', 'u-z', 'g-r', 'g-i', 'g-z', 'r-i', 'r-z', 'i-z', 'w1-w2',
-       'w1-w3', 'w1-w4', 'w2-w3', 'w2-w4', 'w3-w4'
+
 Name:    | dtype  | feature/target | Description
+
 ext_ID   | str    | n/a            | external catalogue ID.  For XXL, this is XXL_ID.  For MaNGA, MANGAID.  For non AGN, this is either 'quiescent' or 'starforming'.
 objID    | str    | n/a            | SDSS photometric object ID
 z        | float  | feature        | Redshift
